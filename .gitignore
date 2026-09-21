@@ -1,0 +1,26 @@
+# ===== Python / 虚拟环境 =====
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 模型权重（约 7.8 GB，安装时下载，不进仓库） =====
+models/
+
+# ===== 运行时产物 =====
+outputs/
+_cache/
+_shots/
+_app.log
+.installed
+
+# ===== 第三方轮子（安装时下载，不进仓库） =====
+yue2_infer-*.whl
+
+# ===== 打包产物 =====
+YuE2-GUI-upload.zip
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
