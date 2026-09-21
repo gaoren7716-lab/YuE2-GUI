@@ -29,6 +29,9 @@
 
 ---
 
+<img width="764" height="984" alt="image" src="https://github.com/user-attachments/assets/3eef3d1c-c148-4874-b18d-3fda4f72c72f" />
+
+
 ## 这个项目解决什么问题
 
 YuE2 是 M-A-P 团队开源的音乐生成大模型（3B 参数），输入一段**风格描述**和**歌词**，就能生成带人声的完整歌曲。但官方只提供了命令行和一份研究用的演示页：
