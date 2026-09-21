@@ -1,0 +1,20 @@
+# YuE2-GUI 依赖参考清单
+#
+# ⚠️ 请用 install.bat（Windows）/ install.sh（Linux）安装，不要直接
+#    `pip install -r requirements.txt`：
+#    - PyTorch 必须是 CUDA 版，且从国内镜像下载轮子（官方 CDN 极慢）；
+#    - YuE2 推理包以 wheel 形式单独提供，不在 PyPI 上。
+#    本文件仅用于让依赖构成一目了然。
+#
+# 基础环境：Python 3.10+
+
+# --- 推理框架（必须 CUDA 版）---
+# 从镜像下载 torch-2.10.0+cu128 轮子后本地安装，见 install.py
+torch==2.10.0+cu128
+
+# --- YuE2 官方推理包 ---
+# wheel: yue2_infer-0.1.5-py3-none-any.whl（由 install.py 从 hf-mirror.com 下载）
+yue2_infer==0.1.5
+
+# --- 界面附加依赖 ---
+huggingface-hub==0.36.2

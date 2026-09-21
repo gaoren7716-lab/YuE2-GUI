@@ -316,6 +316,7 @@ YuE2-GUI/
 ├── verify_params.py      # 参数校验脚本
 ├── verify_plan_score.py  # 规划/乐谱校验脚本
 ├── verify_ui.js          # 前端断言脚本
+├── requirements.txt      # 依赖参考清单（真正安装请用 install.bat/sh）
 ├── models/               # 模型权重（安装时下载，**不进 Git**）
 ├── outputs/              # 生成结果（**不进 Git**，只保留最近 20 首）
 └── .venv/                # Python 环境（**不进 Git**）

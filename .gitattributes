@@ -1,0 +1,15 @@
+# 统一换行符，避免跨平台 CRLF/LF 噪音
+* text=auto
+
+*.py   text eol=lf
+*.js   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+*.png  binary
+*.jpg  binary
+*.flac binary
+*.mp3  binary
+*.safetensors binary
